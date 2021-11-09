@@ -1,0 +1,11 @@
+var str="HeLLo";
+var req="";
+for(var i=0;i<str.length;i++){
+if(str.charCodeAt(i)>=65&&str.charCodeAt(i)<=99){
+  req=req+str[i].toLowerCase();
+ }
+ if(str.charCodeAt(i)>=97&&str.charCodeAt(i)<=127){
+   req=req+str[i].toUpperCase();
+  }
+  }
+  console.log(req);
