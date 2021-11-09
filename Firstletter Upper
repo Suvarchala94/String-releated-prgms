@@ -1,0 +1,9 @@
+var str="hai suvarchala";
+var req="";
+var str1=str.split(" ");
+for(var i=0;i<str1.length;i++){
+  req=req+str1[i].charAt(0).toUpperCase()+substr(1).toLowerCase()+" ";
+  }
+  console.log(req);
+
+
